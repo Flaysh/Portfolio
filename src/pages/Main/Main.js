@@ -8,17 +8,18 @@ function Main() {
     return (
         <div>
             <Helmet>
-                <title>{headerData.name} - Porfolio</title>
+                <title>{headerData.name}</title>
             </Helmet>
 
             {/* <Navbar />         */}
             <Landing />
-            <About />
+            <About />   
             <Education />
-            <Skills />
-            {/* <Experience />
-            <Projects />
-            <Achievement /> */}
+        
+           <Experience />
+           <Skills />
+           {/*   <Projects />*/}
+            {/* <Achievement />  */}
             {/* <Services /> */}
             {/* <Testimonials />
             <Blog />*/}

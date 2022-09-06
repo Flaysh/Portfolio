@@ -15,13 +15,6 @@ export const experienceData = [
     },
     {
         id: 3,
-        company: 'Glory of Zion Ministries',
-        jobtitle: 'Web Developer',
-        startYear: '2019',
-        endYear: '2021'
-    },
-    {
-        id: 4,
         company: 'The First Station Jerusalem',
         jobtitle: 'Production Manager',
         startYear: '2015',

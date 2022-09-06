@@ -5,5 +5,5 @@ export const headerData = {
     title: "Open for freelance work!",
     desciption:"Co-Founder and Software Engineer at MoonWiz.",
     image: 'https://i.imgur.com/R5mBcNM.jpg',
-    resumePdf: resume
+    // resumePdf: resume
 }

@@ -167,7 +167,7 @@ function Contacts() {
             style={{ backgroundColor: theme.secondary }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: theme.primary }}>Contact me</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
@@ -176,7 +176,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Elon Musk'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +192,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='elon@tesla.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'

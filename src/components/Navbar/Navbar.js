@@ -134,16 +134,16 @@ function Navbar() {
         <div className='navbar'>
             <div className='navbar--container'>
                 <h1 style={{ color: theme.secondary }}>
-                    {shortname(headerData.name)}
+                    {shortname("Flaysh")}
                 </h1>
 
-                <IoMenuSharp
+                {/* <IoMenuSharp
                     className={classes.navMenu}
                     onClick={handleDrawerOpen}
                     aria-label='Menu'
-                />
+                /> */}
             </div>
-            <Drawer
+            {/* <Drawer
                 variant='temporary'
                 onClose={(event, reason) => {
                     if (reason !== 'backdropClick') {
@@ -282,7 +282,7 @@ function Navbar() {
                         </Fade>
                     </div>
                 </div>
-            </Drawer>
+            </Drawer> */}
         </div>
     );
 }

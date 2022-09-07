@@ -11,7 +11,7 @@ function Main() {
                 <title>{headerData.name}</title>
             </Helmet>
 
-            {/* <Navbar />         */}
+            <Navbar />        
             <Landing />
             <About />   
             <Education />
@@ -24,7 +24,7 @@ function Main() {
             {/* <Testimonials />
             <Blog />*/}
             <Contacts /> 
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
